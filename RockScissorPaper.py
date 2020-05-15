@@ -30,5 +30,6 @@ while play_again == "s":
     #Pregunta si quieres jugar de nuevo
     play_again = input("Quieres jugar de nuevo: s/n ").lower()
     if play_again != "s":
-        print("Bye!!")
+        print("Bye!")
         break
+
