@@ -1,0 +1,17 @@
+{"intents": 
+    [
+        {
+            "tag"       : "greeting",
+            "pattern"   : ["hi","hello","hey","What's up?","hey, there","hola"],
+            "responses" : ["Hey!","Good to see you!","Pleased to see you","Hi! thanks for coming"],
+            "context"   : ""
+        },
+        {
+            "tag"       : "farewell",
+            "pattern"   : ["bye!","bye bye!","bye","bye bye", "goodbye!", "goodbye", "see you soon", "see you later"],
+            "responses" : ["bye!","chao!","see you around","Hope to see you soon"],
+            "context"   : "" 
+        }
+    ]
+
+}
