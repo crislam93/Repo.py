@@ -1,10 +1,11 @@
 import numpy as np
 import tensorflow
 import tflearn
+from nltk.stem.lancaster import LancasterStemmer
 import random
 import json
 import chatbot
-from nltk.stem.lancaster import LancasterStemmer
+
 
 stemmer = LancasterStemmer()
 
