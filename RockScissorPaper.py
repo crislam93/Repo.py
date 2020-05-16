@@ -3,10 +3,12 @@ import random   #random.randtin, random.choice
 options = ["piedra", "papel", "tijera"]     #opciones 
 play_again = "s"
 user_choice = ""
+
 while play_again == "s":
     computer_choice = random.choice(options) #elección automática de la computadora 
-    user_input = str(input("Pick ==> Piedra[r], Papel[p], Tijera[t]: ")).lower()
+    user_input = str(input("Elige ==> Piedra[r], Papel[p], Tijera[t]: ")).lower()
     
+    #Piedra[r]  <=== por rock
     #convierte tu input en piedra papel o tijeras
     if user_input == "r" or user_input == "piedra":
         user_choice = options[0]
@@ -15,6 +17,7 @@ while play_again == "s":
     elif user_input == "t" or user_input == "tijera":
         user_choice = options[2]
     else: print("Wrong pick. Try again...")
+      
 
     #Compara tu elección contra la de la computadora
     if user_choice == computer_choice:
