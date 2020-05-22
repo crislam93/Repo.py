@@ -1,0 +1,40 @@
+Lorem ipsum dolor sit amet consectetur adipiscing,
+elit non lacus lacinia vivamus habitasse maecenas, 
+mi proin magna pulvinar ridiculus. Cursus posuere risus vitae hac feugiat non neque,
+facilisis urna justo nostra tellus sodales, mus eget massa cubilia platea volutpat. 
+Accumsan hendrerit diam per proin lacinia tincidunt elementum mi sem, 
+sollicitudin pulvinar integer felis vehicula montes nisl feugiat etiam,
+ultricies tempor fusce dis litora quisque augue vel.
+
+
+Character
+
+Meaning
+
+'r'
+
+open for reading (default)
+
+'w'
+
+open for writing, truncating the file first
+
+'x'
+
+open for exclusive creation, failing if the file already exists
+
+'a'
+
+open for writing, appending to the end of the file if it exists
+
+'b'
+
+binary mode
+
+'t'
+
+text mode (default)
+
+'+'
+
+open for updating (reading and writing)
