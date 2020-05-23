@@ -1,0 +1,6 @@
+
+                    The new_directory function creates a new directory inside the current working directory, 
+                    then creates a new empty file inside the new directory,
+                    and returns the list of files in that directory. 
+                    Fill in the gaps to create a file "script.py" in the directory "PythonPrograms".
+                
