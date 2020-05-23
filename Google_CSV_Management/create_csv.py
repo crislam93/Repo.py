@@ -20,7 +20,8 @@ def add_info(fullname, phone, role):
         else:
             file.writelines(fullname + ", ")
             file.writelines(phone + ", ")
-            file.writelines(role + "\n")
+            file.writelines(role)
+            file.writelines("\n")
             timestamp      = os.path.getmtime(fpath)
             modified_time  =  datetime.date.fromtimestamp(timestamp)
             return "Last update {}, Data added: {}, {}, {}".format(modified_time,fullname,phone,role)
