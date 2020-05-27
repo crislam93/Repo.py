@@ -1,9 +1,9 @@
 '''
 Using the CSV file of flowers again, 
-fill in the gaps of the contents_of_file function to process the data without turning it into a dictionary.
+fill in the gaps of the contents_of_file function 
+to process the data without turning it into a dictionary.
  How do you skip over the header record with the field names?
 '''
-
 import os
 import csv
 
@@ -25,15 +25,13 @@ def contents_of_file(filename):
   create_file(filename)
 
   # Open the file
-  ___
+  with open(filename, "r") as f:
     # Read the rows of the file
-    rows = ["", "", ""]
+    rows = csv.DictReader(f)
     # Process each row
     for row in rows:
-      name, color, typo = row
       # Format the return string for data rows only
-
-          return_string += "a {} {} is {}\n".format(name, color, typo)
+      return_string += "a {} {} is {}\n".format(row["color"], row["name"], row["type"])
   return return_string
 
 #Call the function
