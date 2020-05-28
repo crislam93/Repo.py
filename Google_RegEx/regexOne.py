@@ -36,3 +36,4 @@ print(repeating_letter_a("pineapple")) # False
 print(repeating_letter_a("Animal Kingdom")) # True
 print(repeating_letter_a("A is for apple")) # True
 
+
