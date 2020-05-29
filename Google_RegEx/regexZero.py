@@ -16,6 +16,7 @@ info = "Total Disk Usage = {} \n Free Disk = {} \n Today: {} \n {} \n{}".format(
 
 regex = "\[(\d+)\]"
 
-result = re.search(regex, info) 
+#result = re.search(regex, info)
+result = re.findall(regex, info)
 
 print(result)
